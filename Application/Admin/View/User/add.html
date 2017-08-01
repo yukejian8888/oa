@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__ADMINCSS__/base.css" />
+<link rel="stylesheet" href="__ADMINCSS__/info-reg.css" />
+<title>移动办公自动化系统</title>
+<style>
+	.main p input {
+		float:none;
+	}
+</style>
+</head>
+
+<body>
+<div class="title"><h2>信息登记</h2></div>
+<div class="main">
+
+    <p class="short-input ue-clear">
+    	<label>权限：</label>
+        <input type="radio" name="sex" value="普通用户" checked='checked' />普通用户&nbsp;&nbsp;
+        <input type="radio" name="sex" value="普通管理员" />普通管理员&nbsp;&nbsp;
+		<input type="radio" name="sex" value="超级管理员" />超级管理员
+    </p>
+
+</div>
+<div class="btn ue-clear">
+	<a href="javascript:;" class="confirm">确定</a>
+    <a href="javascript:;" class="clear">清空内容</a>
+</div>
+</body>
+<script type="text/javascript" src="__ADMINJS__/jquery.js"></script>
+<script type="text/javascript" src="__ADMINJS__/common.js"></script>
+<script type="text/javascript" src="__ADMINJS__/WdatePicker.js"></script>
+<script type="text/javascript">
+$(".select-title").on("click",function(){
+	$(".select-list").toggle();
+	return false;
+});
+$(".select-list").on("click","li",function(){
+	var txt = $(this).text();
+	$(".select-title").find("span").text(txt);
+});
+
+
+showRemind('input[type=text], textarea','placeholder');
+</script>
+</html>

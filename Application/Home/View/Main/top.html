@@ -1,0 +1,309 @@
+<link href="__HOMECSS__/style.css" rel="stylesheet" type="text/css" />
+<script src="__HOMEJS__/jquery-1.10.1.js"></script>
+<script src="__HOMEJS__/login.js"></script>
+<script>
+var itime=59;
+    function gettime()
+    {
+        if(itime>=0)
+        {
+            if(itime!=0)
+            {
+                var act=setTimeout('gettime()',1000);
+                $("#telcode").val("剩"+itime+"秒");
+                itime--;
+            }
+            else
+            {
+                clearTimeout(act);
+                $("#telcode").val("获取验证码").attr("disabled",false);
+                itime=59;
+            }
+        }
+    }
+    //ajax验证手机号
+    $(function() {
+        $("#tel").blur(function() {
+            var tel=$("#tel").val();
+            $.ajax({
+                type:'get',
+                url:"{:U('Register/checktel/')}?tel="+tel,
+                success:function(msg) {
+                    if(msg==1)
+                    {
+                        $('#telcf').val('1');
+                        $("#telmsg").html("");
+                    }
+                    else
+                    {
+                        $('#telcf').val('0');
+                        $("#telmsg").html("手机号已绑定，不能重复绑定");
+                    }
+                }
+            });
+        });
+    });
+//ajax发送验证码
+    $(function() {
+        $("#telcode").click(function() {
+            var tel=$("#tel").val();
+            $.ajax({
+                type:'get',
+                url:"{:U('Register/send/')}?tel="+tel,
+                success:function(msg) {
+                    if(msg==1)
+                    {
+                        $("#telcode").attr("disabled",true);
+                        gettime();
+                    }
+                }
+            });
+        });
+    });
+//ajax判断验证码是否正确
+    $(function() {
+        $("#yanzheng").blur(function() {
+            var telyanzheng=$("#yanzheng").val();
+            $.ajax({
+                type:'get',
+                url:"{:U('Register/checkcode/')}?yanzheng="+telyanzheng,
+                success:function(msg) {
+                    if(msg==1)
+                    {
+                        $('#telcodehdn').val('1');
+                        $("#telcodemsg").html("");
+                    }
+                    else if(msg==0)
+                    {
+                        $('#telcodehdn').val('0');
+                        $("#telcodemsg").html("手机验证码错误，请充填");
+                    }
+                    else
+                    {
+                        $('#telcodehdn').val('0');
+                        $("#telcodemsg").html("发生未知错误，请重新获取");
+                    }
+                }
+            });
+        });
+    });
+    //提交注册表单
+    $(function() {
+        $('#register').click(function () {
+            var telcodehdn = $('#telcodehdn').val();
+            var pwdhdn = $('#pwdhdn').val();
+            var codehdn = $('#codehdn').val();
+            if (telcodehdn == pwdhdn && telcodehdn == codehdn && telcodehdn == 1) {
+                $('#registerForm').submit();
+            }
+            else {
+                alert('请将信息填写正确后在提交');
+            }
+        });
+    });
+    //判断密码是否一致
+    $(function() {
+        $('#repassword').blur(function () {
+            var repwd = $('#repassword').val();
+            var pwd = $('#password').val();
+            if (repwd != pwd) {
+                $('#pwdhdn').val('0');
+                $('#pwdmsg').html('两次输入密码不一致');
+            }
+            else {
+                $('#pwdhdn').val('1');
+                $('#pwdmsg').html('');
+            }
+        })
+    });
+    //ajax判断验证码
+    $(function() {
+        $('#code').blur(function () {
+            var code = $('#code').val();
+            $.ajax({
+                type: 'get',
+                url: "{:U('Register/checktxtCode/')}?code="+code,
+                success: function (msg) {
+                    if(msg == 1) {
+                        $('#codehdn').val('1');
+                        $("#txtcode").html("");
+                    }
+                    else if(msg == 0) {
+                        $('#codehdn').val('0');
+                        $("#txtcode").html("验证码错误，请重填");
+                    }
+                    else {
+                        $('#codehdn').val('0');
+                        $("#txtcode").html("发生未知错误，请重新获取");
+                    }
+                }
+            });
+        });
+    });
+    function search(){
+        var obj1 = document.getElementById('keywords');
+        var obj2 = document.getElementById('choose');
+        var keywords = obj1.value;
+        var choose = obj2.value
+        if(keywords==""){
+            obj1.placeholder="！关键字不能为空！";
+        }else{
+            location.href = '__CONTROLLER__/search/kw/'+keywords+'/ch/'+choose;
+        }
+    }
+    function sendform(url,n){
+        var fm = document.getElementsByTagName('form')[n];
+        var fd = new FormData(fm);
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){
+                var info = xhr.responseText;
+                    if(info=="登录成功！"){
+                        /*prompt_show(info);*/
+                        location.href = '__CONTROLLER__/Index';
+                    }else{
+                        alert(info);
+                        /*location.href = '__CONTROLLER__/Index';*/
+                        /*prompt_show(info);*/
+                    }
+            }
+        }
+        xhr.open('post',url);
+        xhr.send(fd);
+    }
+    function logout(url){
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){
+                /*location.href = '__CONTROLLER__/Index';*/
+                prompt_show(xhr.responseText);
+                setTimeout("location.href='__CONTROLLER__/Index'",2500);
+            }
+        }
+        xhr.open('get',url);
+        xhr.send(null);
+    }
+    function changecode(obj)
+    {
+        obj.src="{:U('Register/Verify')}?"+Math.random();
+    }
+</script>
+<div id="templatemo_menu">
+    <ul>
+        <li><a href="__CONTROLLER__/Index" class="current">首页</a></li>
+        <foreach name="cate" item="value">
+        <li><a href="__CONTROLLER__/Index/cid/{$value.cat_id}" style = "float:left">{$value.cat_name}</a></li>
+        </foreach>
+        <div id="search">
+            <input type="text" id="keywords" placeholder='输入关键字进行搜索' value='{$data.keywords}'/>
+            <select id="choose"><option value="1" <if condition="$data['choose'] eq 1">selected</if> >书名</option><option value="2" <if condition="$data['choose'] eq 2">selected</if> >作者</option></select>
+            <!--<a href="javascript:;" onclick="">搜索</a>-->
+            <button onclick="search()" onmousemove="style='color:#e6e154;'" onmouseout="style='color:rgb(150,150,70);'">搜索</button>
+        </div>
+        <li style = "float:right">
+            <if condition="$user neq ''"><a href="javascript:;" id="user" ><span>{$user}</span><em>∨</em></a><else />
+                <a href="javascript:;" id="loginButton"><span>登录</span><em></em></a><a href="javascript:;" id="registerButton"><span>注册</span><em></em></a>
+            </if>
+        </li>
+    </ul>
+
+</div> <!-- end of menu -->
+
+<div id="templatemo_header" style="position:relative;">
+    <div id="Web_title">
+        <span>Book Share</span><br/><br/>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最好的网上图书分享网站</p>
+    </div>
+
+            <!-- 登录开始 -->
+            <div id="loginBox">
+                <form id="loginForm" method="post" action="">
+                    <fieldset id="body1">
+                        <fieldset>
+                            <label>手机号</label>
+                            <input type="text" name="phone" />
+                        </fieldset>
+                        <fieldset>
+                            <label>密码</label>
+                            <input type="password" name="password" />
+                        </fieldset>
+                        <fieldset>
+                            <label>验证码</label>
+                            <input type="text" name="code" style="width:120px;"/>
+                            <img src="{:U('Main/Verify')}" width="80" height="35" onclick="this.src='{:U(\'Main/Verify\')}?'+Math.random()" style="vertical-align:middle;"/>
+                        </fieldset>
+                        <input type="button" id="login" value="登录" onclick="sendform('{:U(\'Main/LoginCheck\')}',0)"/>
+                        <label><input type="checkbox" id="checkbox" />记住密码</label>
+                    </fieldset>
+                    <span><a href="javascript:;">忘记密码?</a></span>
+                </form>
+            </div>
+            <!-- 登录结束 -->
+            <!-- 注册开始 -->
+            <div id="registerBox">
+                <form id="registerForm" action="{:U('Register/save')}" method="post">
+                    <input type="hidden" id="telcodehdn" value="0" />
+                    <input type="hidden" id="telcf" value="0" />
+                    <input type="hidden" id="pwdhdn" value="0" />
+                    <input type="hidden" id="codehdn" value="0" />
+                    <fieldset id="body2">
+                        <fieldset>
+                            <label>手机号</label>
+                            <input type="text" name="tel" id="tel" />
+                            <span id="telmsg"></span>
+                        </fieldset>
+                        <fieldset>
+                            <label>手机验证码</label>
+                            <input type="button" value="发送手机验证码" id="telcode">
+                            <input type="text" name="yanzheng" id="yanzheng" />
+                            <span id="telcodemsg"></span>
+                        </fieldset>
+                        <fieldset>
+                            <label>设置密码</label>
+                            <input type="password" name="password" id="password" />
+                        </fieldset>
+                        <fieldset>
+                            <label>确认密码</label>
+                            <input type="password" name="repassword" id="repassword"/>
+                            <span id="pwdmsg"></span>
+                        </fieldset>
+                        <fieldset>
+                            <label>验证码</label>
+                            <img src="{:U('Register/Verify')}" width="80" height="35" onclick="changecode(this)"/>
+                            <input type="text" name="code" id="code" />
+                            <span id="txtcode"></span>
+                        </fieldset>
+                        <input type="button" id="register" value="注册" />
+                    </fieldset>
+                </form>
+            </div>
+            <!-- 注册结束 -->
+            <!--个人中心开始-->
+            <div id="person">
+                <a href="{:U('User/person')}" target="_blank">个人中心</a><br />
+                <a href="javascript:;" onclick="logout('{:U('User/Logout')}')" >退出</a><br />
+            </div>
+            <!--个人中心结束-->
+            <!--提示框开始-->
+            <div id="prompt"></div>
+            <!--提示框结束--->
+    <div id="templatemo_special_offers">
+        <ul>
+            <foreach name="dload" item="val">
+            <li><a href="__CONTROLLER__/details/id/{$val.book_id}">《{$val.book_name}》</a></li>
+            </foreach>
+        </ul>
+        <a href="__CONTROLLER__/index/show/1" style="margin-left: 50px;">更多...</a>
+    </div>
+
+
+    <div id="templatemo_new_books">
+        <ul>
+            <foreach name="uload" item="v">
+                <li><a href="__CONTROLLER__/details/id/{$v.book_id}">《{$v.book_name}》</a></li>
+            </foreach>
+        </ul>
+        <a href="__CONTROLLER__/index/show/2" style="margin-left: 50px;">更多...</a>
+    </div>
+</div>

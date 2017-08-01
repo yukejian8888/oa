@@ -1,0 +1,237 @@
+/*-------LOGIN STARTS HERE -------*/
+/* Login Button */
+#loginButton {
+    cursor:pointer;
+}
+
+/* Login Button Text */
+#loginButton span {
+    font-weight:bold;
+    display:block
+}
+
+/*#loginButton:hover {
+    background:url(../images/buttonbgHover.png) repeat-x;
+}*/
+
+/* Login Box */
+#loginBox {
+    position:absolute;
+    top:0;
+    right:0;
+    display:none;
+    z-index:29;
+}
+/* Login Form */
+#loginForm {
+    width:248px;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    margin-top:-1px;
+    background:rgb(72,60,48);
+    padding:6px;
+}
+
+#loginForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+fieldset#body1 {
+    background:rgb(84,55,24);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    padding:10px 13px;
+    margin:0;
+}
+
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+
+#body1 label {
+    color:rgb(203,199,80);
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body1 fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+/* Default Input */
+#loginForm input {
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    font-weight:bold;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+    vertical-align:middle;
+}
+
+/* Sign In Button */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:rgb(72,60,48);
+    color:rgb(203,199,80);
+    padding:7px 10px 8px 10px;
+    text-shadow:0px -1px #fff;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Forgot your password */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+}
+
+#loginForm span a {
+    color:rgb(203,199,80);
+    text-shadow:0px 0px #fff;
+    font-size:12px;
+}
+
+input:focus {
+    outline:none;
+}
+
+/*-------registerSTARTS HERE -------*/
+/* register Button */
+#registerButton {
+    cursor:pointer;
+}
+
+/* register Button Text */
+#registerButton span {
+    font-weight:bold;
+    display:block
+}
+
+/* register Box */
+#registerBox {
+    position:absolute;
+    top:0;
+    right:0;
+    display:none;
+    z-index:29;
+}
+/* register Form */
+#registerForm {
+    width:248px;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    margin-top:-1px;
+    background:rgb(72,60,48);
+    padding:6px;
+}
+
+#registerForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+fieldset#body2 {
+    background:rgb(84,55,24);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    padding:10px 13px;
+    margin:0;
+}
+
+/*#registerForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; !* IE7 Fix *!
+}*/
+
+#body2 label {
+    color:rgb(203,199,80);
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#registerForm #body2 fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+/* Default Input */
+#registerForm input {
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    font-weight:bold;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+    vertical-align:middle;
+}
+
+/* register Button */
+#registerForm #register {
+    width:auto;
+    float:left;
+    background:rgb(72,60,48);
+    color:rgb(203,199,80);
+    padding:7px 10px 8px 10px;
+    text-shadow:0px -1px #fff;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Forgot your password */
+#registerForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+}
+
+#registerForm span a {
+    color:rgb(203,199,80);
+    text-shadow:0px 0px #fff;
+    font-size:12px;
+}
+input:focus {
+    outline:none;
+}
+
+/* 提示框 */
+#prompt{position:absolute;top:220px;right:120px;font-size: 25px;font-family: 微软雅黑;color:red;display: none;}

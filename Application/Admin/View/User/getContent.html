@@ -1,0 +1,17 @@
+<foreach name="ulist" item="vo">
+    <tr>
+        <td class="num">{$vo.user_id}</th>
+        <td class="name">{$vo.user_name}</th>
+        <td class="nickname">{$vo.nick_name}</th>
+        <td class="sex">{$vo.sex}</th>
+        <td class="birthday">{$vo.birthday}</th>
+        <th class="tel">{$vo.phone}</th>
+        <th class="email">{$vo.email}</th>
+        <th class="email">{$vo.other_contact}</th>
+        <th class="ctime">{$vo.create_time}</th>
+        <th class="ctime">{$vo.update_time}</th>
+        <th class="operate">
+            <a href="__CONTROLLER__/del/id/{$vo.user_id}">删除</a>
+        </th>
+    </tr>
+</foreach>

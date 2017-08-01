@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" href="/Public/Admin/css/info-mgt.css" />
+<link rel="stylesheet" href="/Public/Admin/css/WdatePicker.css" />
+<title>移动办公自动化系统</title>
+<style type='text/css'>
+	table tr .num{ width:63px; text-align: center;}
+	table tr .name{ width:63px; padding-left:17px;}
+	table tr .nickname{ width:63px; padding-left:13px;}
+	table tr .dept{ width:63px; padding-left:13px;}
+	table tr .role{ width:63px; padding-left:13px;}
+	table tr .sex{ width:63px; padding-left:13px;}
+	table tr .birthday{ width:63px; padding-left:13px;}
+	table tr .tel{ width:63px; padding-left:13px;}
+	table tr .email{ width:63px; padding-left:13px;}
+	table tr .ctime{ width:63px; padding-left:13px;}
+	table tr .operate{ width:63px; padding-left:15px;}
+	table tr .operate a{ color:#2c7bbc;}
+	table tr .operate a:hover{ text-decoration:underline;}
+</style>
+</head>
+
+<body>
+<div class="title"><h2>图书管理</h2></div>
+<div class="table-operate ue-clear">
+    <a href="javascript:;" class="edit">编辑</a>
+</div>
+<div class="table-box">
+	<table>
+    	<thead>
+        	<tr>
+            	<th class="num">图书id</th>
+                <th class="name">图书名</th>
+                <th class="node">作者</th>
+                <th class="process">上传者</th>
+                <th class="process">推荐量</th>
+                <th class="process">存储路径</th>
+                <th class="process">上传时间</th>
+                <th class="process">图书状态</th>
+                <th class="process">下载次数</th>
+                <th class="process">修改时间</th>
+                <th class="process">图书分类</th>
+                <th class="operate">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<volist name="data" id="value">
+                <tr>
+                    <td class="num">{$value.book_id}</td>
+                    <td class="name">{$value.book_name}</td>
+                    <td class="node">{$value.author}</td>
+                    <td class="process">{$value.nick_name}</td>
+                    <td class="process">{$value.isgood}</td>
+                    <td class="process">
+                    <a href='__CONTROLLER__/download/id/{$value.book_id}'>附件下载</a>
+                </td>
+                    <td class="process">{$value.upload_time|date="Y-m-d H:i:s",###}</td>
+                    <td class="process">
+                        <if condition="$value.is_show eq 0">正在审核
+                        <elseif condition="$value.is_show eq 1"/>审核通过
+                        <elseif condition="$value.is_show eq 2"/>审核未通过
+                        </if>
+                    </td>
+                    <td class="process">{$value.download_times}</td>
+                    <td class="process">{$value.update_time|date="Y-m-d H:i:s",###}</td>
+                    <td class="process">{$value.cat_name}</td>
+                    <td class="process">
+                        <a href="__CONTROLLER__/auditok/id/{$value.book_id}">通过</a>
+                        |
+                        <a href="__CONTROLLER__/auditno/id/{$value.book_id}">未通过</a>
+                    </td>
+                </tr>
+            </volist>
+            
+        </tbody>
+    </table>
+</div>
+<div class="pagination ue-clear">{$page}</div>
+</body>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.pagination.js"></script>
+<script type="text/javascript">
+/*function show(page){
+    var data = {'p':page, '_':Math.random()}
+    $.get('__CONTROLLER__/getContent', data, function(msg){
+        //alert(msg);
+        $('tbody').html(msg);
+    })
+}
+
+//ajax分页类插件
+$('.pagination').pagination({$count},{
+    callback: function(page){
+            show(page+1)
+    },
+    display_msg: false,
+    setPageNo: false,
+    items_per_page : {$pagesize}, // 每页显示多少条记录
+});*/
+
+$("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
+
+showRemind('input[type=text], textarea','placeholder');
+</script>
+</html>

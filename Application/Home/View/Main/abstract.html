@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Book Store Template, Free CSS Template, cssMoban.com</title>
+<meta name="keywords" content="Book Store Template, Free CSS Template, CSS Website Layout, CSS, HTML, cssMoban.com" />
+<meta name="description" content="Book Store Template, Free CSS Template, Download CSS Website from cssMoban.com" />
+    <link href="__HOMECSS__/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="templatemo_container">
+    <include file='Main:top' />
+    <!-- end of header -->
+    
+    <div id="templatemo_content">
+    	
+        <div id="templatemo_content_left">
+            <include file='Main:left' />
+            </div>
+
+         <!-- end of content left -->
+        
+        <div id="templatemo_content_right">
+        	
+            <h1>{$abstract.0}</h1>
+
+            <div id="abstract">
+                <h2>读书 - 看故事 - 做自己</h2>
+            <ul>
+	            <li><if condition="$abstract.1 neq '：'">{$abstract.1|str_replace='a','span',###}</if></li>
+            	<li><if condition="$abstract.2 neq '：'">{$abstract.2|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.3 neq '：'">{$abstract.3|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.4 neq '：'">{$abstract.4|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.5 neq '：'">{$abstract.5|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.6 neq '：'">{$abstract.6|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.7 neq '：'">{$abstract.7|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.8 neq '：'">{$abstract.8|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.9 neq '：'">{$abstract.9|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.10 neq '简介：'">{$abstract.10|str_replace='a','span',###}</if></li>
+                <li><if condition="$abstract.11 neq '版权：'">{$abstract.11|str_replace='a','span',###}</if></li>
+            </ul>
+                <h2>(注：以上内容均来自互联网，本站无法保证其准确性！)</h2>
+            </div>
+
+             <div class="cleaner_with_height">&nbsp;</div>
+            
+            <a href="index.html"><img src="__HOMEIMG__/templatemo_ads.jpg" alt="css template ad" /></a>
+            
+        </div> <!-- end of content right -->
+    
+    	<div class="cleaner_with_height">&nbsp;</div>
+     <!-- end of content -->
+    
+    <div id="templatemo_footer">
+        <include file='footer' />
+        </div>
+<!--  Free CSS Template www.cssmoban.com -->
+</div> <!-- end of container -->
+</body>
+<script type="text/javascript">
+    function isgood(id){
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){
+                /*alert(xhr.responseText);*/
+                location.href = '__CONTROLLER__/details/id/'+id;
+            }
+        }
+        xhr.open('get','__CONTROLLER__/isGood/id/'+id);
+        xhr.send(null);
+    }
+</script>
+</html>

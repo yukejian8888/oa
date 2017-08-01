@@ -1,0 +1,21 @@
+<div class="templatemo_content_left_section">
+    <h1>男生喜欢：</h1>
+    <ul>
+        <foreach name="book_m" item="v">
+        <li><a href="__CONTROLLER__/details/id/{$v.book_id}">《{$v.book_name}》</a></li>
+        </foreach>
+    </ul>
+</div>
+<div class="templatemo_content_left_section">
+    <h1>女生喜欢：</h1>
+    <ul>
+        <foreach name="book_w" item="val">
+            <li><a href="__CONTROLLER__/details/id/{$val.book_id}">《{$val.book_name}》</a></li>
+        </foreach>
+    </ul>
+</div>
+
+<div class="templatemo_content_left_section">
+    <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"  src="" alt="Valid CSS!" vspace="8" border="0" /></a>
+</div>

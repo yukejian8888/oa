@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图书分享</title>
+<meta name="keywords" content="Book Store Template, Free CSS Template, CSS Website Layout, CSS, HTML" />
+<meta name="description" content="Book Store Template, Free CSS Template, Download CSS Website" />
+<link href="__HOMECSS__/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="templatemo_container">
+    <include file='Main:top' />
+     <!-- end of header -->
+    
+    <div id="templatemo_content">
+
+        <div id="templatemo_content_left">
+            <include file='Main:left' />
+        </div> <!-- end of content left -->
+
+        <div id="templatemo_content_right">
+            <if condition="!empty($book)">
+            <foreach name="book" item="val">
+        	<div class="templatemo_product_box">
+            	<h1>《{$val.book_name}》  <span>(作者：{$val.author})</span></h1>
+                <if condition="$val['image'] neq 'null'and $val['image'] neq ''">
+                    <img src="{$val.image}" alt="image" width="100" height="150"/>
+                <else/>
+   	                <img src="__HOMEIMG__/templatemo_image_01.jpg" alt="image" width="100" height="150"/>
+                </if>
+                <div class="product_info">
+                	<p>{$val.intro}</p>
+                  <h2>下载量：{$val.download_times} | 推荐量：{$val.isgood}</h2>
+                    <div class="book_details"><a href="__CONTROLLER__/details/id/{$val.book_id}">书籍详情</a></div>
+                    <div class="book_download"><a href="{:U('book/download','id='.$val['book_id'])}">下载</a></div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+                <if condition="$key%2==0">
+            <div class="cleaner_with_width">&nbsp;</div>
+                    <else/>
+                    <div class="cleaner_with_height">&nbsp;</div>
+                </if>
+            </foreach>
+                <else/><h2>无此搜索项！</h2>
+            </if>
+
+            <div class="cleaner_with_height">&nbsp;</div>
+            <div>{$page}</div>
+
+            <a href=""><img src="__HOMEIMG__/templatemo_ads.jpg" alt="ads" /></a>
+        </div> <!-- end of content right -->
+
+    	<div class="cleaner_with_height">&nbsp;</div>
+    </div> <!-- end of content -->
+
+    <div id="templatemo_footer">
+        <include file='footer' />
+	       </div>
+    <!-- end of footer -->
+<!--  Free CSS Template www.cssmoban.com -->
+</div> <!-- end of container -->
+</body>
+</html>

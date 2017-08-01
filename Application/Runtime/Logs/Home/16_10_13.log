@@ -1,0 +1,1630 @@
+[ 2016-10-13T15:49:20+08:00 ] 127.0.0.1 /index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000924s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-10-13T15:49:20+08:00 ] 127.0.0.1 /index.php/Home/User/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-10-13T15:50:01+08:00 ] 127.0.0.1 /index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-10-13T15:50:01+08:00 ] 127.0.0.1 /index.php/Home/User/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-10-13T15:50:30+08:00 ] 127.0.0.1 /index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` ORDER BY upload_time desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-10-13T15:50:30+08:00 ] 127.0.0.1 /index.php/Home/User/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-10-13T18:33:48+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0889s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0543s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0008s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-10-13T18:33:49+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-10-13T18:34:18+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.10924669229909423
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-10-13T18:34:19+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.5862130957358951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-10-13T18:34:20+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.36223684120557875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-10-13T18:34:21+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.6316707006585038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-10-13T18:34:21+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.4704790451270149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2016-10-13T18:34:22+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.7492507896758251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-10-13T18:34:23+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.7156160552025475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-10-13T18:34:24+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.8981624906816037
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-10-13T18:34:25+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.38260053982958997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-10-13T18:35:08+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-10-13T18:35:08+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-10-13T18:59:54+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-10-13T18:59:54+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-10-13T19:00:07+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.775000981412614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-10-13T19:00:11+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.2400762285773801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-10-13T19:00:11+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.9235538311194065
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-10-13T19:00:12+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.12709575329486933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-10-13T19:00:17+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.8670277142258671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-10-13T19:00:20+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.5334053919472248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-10-13T19:00:38+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-10-13T19:00:38+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-10-13T19:03:12+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 186 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-10-13T19:03:12+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-10-13T21:35:53+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-10-13T21:35:53+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-10-13T21:35:53+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002295s ]
+
+[ 2016-10-13T21:36:02+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-10-13T21:36:04+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2016-10-13T21:36:04+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003098s ]
+
+[ 2016-10-13T21:36:04+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002542s ]
+
+[ 2016-10-13T21:36:14+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-10-13T21:36:14+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2016-10-13T21:36:14+08:00 ] 127.0.0.1 /index.php/Home/Register/checktxtCode.html?code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-10-13T21:36:15+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html?0.32483963263424065
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-10-13T21:36:15+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html?0.9692072778945322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-10-13T21:36:16+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002446s ]
+
+[ 2016-10-13T21:36:24+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002471s ]
+
+[ 2016-10-13T21:36:24+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2016-10-13T21:36:24+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002458s ]
+
+[ 2016-10-13T21:36:25+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-10-13T21:36:25+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2016-10-13T21:39:42+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-10-13T21:39:42+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003807s ]
+
+[ 2016-10-13T21:39:42+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2016-10-13T21:39:51+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-10-13T21:39:51+08:00 ] 127.0.0.1 /index.php/Home/Register/checkcode.html?yanzheng=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2016-10-13T21:39:52+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003878s ]
+
+[ 2016-10-13T21:39:54+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2016-10-13T21:39:55+08:00 ] 127.0.0.1 /index.php/Home/Register/checkcode.html?yanzheng=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-10-13T21:39:56+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2016-10-13T21:40:00+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-10-13T21:40:01+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-10-13T21:40:01+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-10-13T21:40:05+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0037s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bs_user` WHERE ( phone= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bs_user` WHERE ( phone= ) LIMIT 1  
+
+[ 2016-10-13T21:40:05+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2016-10-13T21:40:11+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-10-13T21:40:14+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002935s ]
+
+[ 2016-10-13T21:40:14+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2016-10-13T21:40:15+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2016-10-13T21:40:15+08:00 ] 127.0.0.1 /index.php/Home/Register/checkcode.html?yanzheng=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-10-13T21:40:15+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2016-10-13T21:40:16+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002732s ]
+
+[ 2016-10-13T21:40:16+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2016-10-13T21:40:16+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002512s ]
+
+[ 2016-10-13T21:40:17+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2016-10-13T21:40:23+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002451s ]
+
+[ 2016-10-13T21:40:23+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002623s ]
+
+[ 2016-10-13T21:40:23+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-10-13T21:40:24+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2016-10-13T21:40:27+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html?0.4168023733226005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-10-13T21:40:28+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html?0.8950179087719048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2016-10-13T21:40:38+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.9226941398495005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-10-13T21:40:39+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.11164917530603868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-10-13T21:40:39+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.7637264328318891
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-10-13T21:40:40+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.7777221365235394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-10-13T21:40:40+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html?0.25100114987495337
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-10-13T21:40:41+08:00 ] 127.0.0.1 /index.php/Home/Main/LoginCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-10-13T21:41:52+08:00 ] 127.0.0.1 /index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-10-13T21:41:52+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-10-13T21:41:52+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-10-13T21:42:00+08:00 ] 127.0.0.1 /Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-10-13T21:42:00+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2016-10-13T21:42:00+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2016-10-13T21:42:08+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-10-13T21:42:10+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002583s ]
+
+[ 2016-10-13T21:42:10+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-10-13T21:42:11+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2016-10-13T21:42:11+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2016-10-13T21:42:42+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-10-13T21:42:42+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002557s ]
+
+[ 2016-10-13T21:42:56+08:00 ] 127.0.0.1 /Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\1c20a0eb6aa677374e354048a482c75a.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\1c20a0eb6aa677374e354048a482c75a.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\1c20a0eb6aa677374e354048a482c75a.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-10-13T21:42:56+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2016-10-13T21:42:56+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2016-10-13T21:43:03+08:00 ] 127.0.0.1 /index.php/Home/Register/checktel.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `bs_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `bs_user` WHERE ( phone=15020433373 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-10-13T21:43:06+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2016-10-13T21:43:06+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002898s ]
+
+[ 2016-10-13T21:43:06+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2016-10-13T21:43:07+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002795s ]
+
+[ 2016-10-13T21:43:07+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-10-13T21:43:07+08:00 ] 127.0.0.1 /index.php/Home/Register/send.html?tel=15020433373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\bookstore\Application\Home\Controller\RegisterController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2016-10-13T21:44:23+08:00 ] 127.0.0.1 /index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0004s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-10-13T21:44:23+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2016-10-13T21:44:23+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-10-13T23:16:04+08:00 ] 127.0.0.1 /index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0922s ]
+SQL: SHOW COLUMNS FROM `bs_category` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `bs_category`  [ RunTime:0.0009s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY download_times desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` ORDER BY isgood desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (1,2,3,5,6,7) ) LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SELECT `book_id`,`book_name` FROM `bs_book` WHERE ( cat_id in (4,7) ) LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bs_book` WHERE ( is_show=1 ) ORDER BY upload_time desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 208 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+NOTIC: [8] Undefined variable: data F:\bookstore\Application\Runtime\Cache\Home\7caeb51c0b49554d06e6411062e36c44.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-10-13T23:16:04+08:00 ] 127.0.0.1 /index.php/Home/Main/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-10-13T23:16:04+08:00 ] 127.0.0.1 /index.php/Home/Register/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+

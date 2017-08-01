@@ -1,0 +1,18 @@
+<volist name="ulist" id="value">
+        	<tr>
+        		<td><input type="checkbox" name="id[]" value="{$value.user_id}" /></td>
+            	<td class="num">{$value.user_id}</td>
+                <td class="name">{$value.user_name}</td>
+                <td class="nickname">{$value.user_nickname}</td>
+                <td class="dept">{$value.dept_name}</td>
+                <td class="sex">{$value.user_sex}</td>
+                <td class="birthday">{$value.user_birthday}</td>
+                <th class="tel">{$value.user_tel}</th>
+                <th class="email">{$value.user_email}</th>
+                <th class="ctime">{$value.user_ctime}</th>
+                <th class="operate">
+                	<a href="__CONTROLLER__/del/id/{$value.user_id}">删除</a>|
+                	<a href="{:U('edit','id='.$value['user_id'])}">修改</a>
+                </th>
+            </tr>
+ </volist>

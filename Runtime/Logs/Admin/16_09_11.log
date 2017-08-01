@@ -1,0 +1,42 @@
+[ 2016-09-11T12:55:39+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T12:57:54+08:00 ] 127.0.0.1 /myoa/index.php/Admin/
+ERR: 无法加载控制器:Index
+
+[ 2016-09-11T13:01:11+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:02:08+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:02:09+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:02:09+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:02:29+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:02:30+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:03:04+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:04:02+08:00 ] 127.0.0.1 /myoa/index.php?m=Admin&c=DB&a=add
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:04:31+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add_test
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:04:33+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add_test
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T13:05:51+08:00 ] 127.0.0.1 /myoa/index.php/Admin/DB/add_test
+ERR: 无法加载控制器:DB
+
+[ 2016-09-11T15:23:46+08:00 ] 127.0.0.1 /myoa/index.php/Admin/Var/sysid=3
+ERR: 非法操作:sysid=3
+

@@ -1,0 +1,68 @@
+[ 2016-09-11T14:34:33+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2016-09-11T14:34:59+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/login.html
+ERR: 非法操作:login
+
+[ 2016-09-11T16:34:59+08:00 ] 127.0.0.1 /myoa/index.php/Home/Dept/index
+ERR: 模板不存在:./oa/Home/View/Dept/index.html
+
+[ 2016-09-11T18:51:23+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2016-09-11T18:51:25+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T18:53:08+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T18:53:14+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/css/info-reg.css
+ERR: 无法加载控制器:Css
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2016-09-11T18:58:37+08:00 ] 127.0.0.1 /myoa/index.php/Home/js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2016-09-11T19:36:55+08:00 ] 127.0.0.1 /myoa/index.php/Home/Dept/addok.html
+ERR: 非法操作:addok
+
+[ 2016-09-11T19:45:12+08:00 ] 127.0.0.1 /myoa/index.php/Home/Dept/addok.html
+ERR: 1292:Incorrect date value: '0' for column 'dept_ctime' at row 1
+ [ SQL语句 ] : INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`,`dept_ctime`) VALUES ('客服部','0','4','这是客服部...','0')
+
+[ 2016-09-11T19:49:36+08:00 ] 127.0.0.1 /myoa/index.php/Home/Dept/addok.html
+ERR: 1062:Duplicate entry '人事部' for key 'dept_name'
+ [ SQL语句 ] : INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`,`dept_ctime`) VALUES ('人事部','0','1','人事管理部','2016-09-11')
+
+[ 2016-09-11T19:50:54+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T19:50:55+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T20:02:12+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2016-09-11T20:02:13+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2016-09-11T20:02:13+08:00 ] 127.0.0.1 /myoa/index.php/Home/Main/info-det.html
+ERR: 非法操作:info-det
+

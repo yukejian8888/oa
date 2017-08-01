@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__HOMECSS__/base.css" />
+<link rel="stylesheet" href="__HOMECSS__/info-reg.css" />
+<title>移动办公自动化系统</title>
+</head>
+
+<body>
+<div class="title"><h2>信息登记</h2></div>
+<div class="main">
+	<form action="{:U('modify')}" method="post">
+	<input type="hidden" name="id" value="{$dinfo.dept_id}" />
+    <p class="short-input ue-clear">
+    	<label>部门名称：</label>
+        <input type="text" name="name" value="{$dinfo.dept_name}"/>
+    </p>
+    <div class="short-input select ue-clear">
+    	<label>上级部门：</label>
+        <div class="select-wrap">
+            <select name="pid">
+            	<option value=0>顶级部门</option>
+            	<foreach name="dlist" item="value">
+            	<if condition="$dinfo.dept_pid eq $value.dept_id ">
+	            	<option value="{$value.dept_id}" selected>
+	            		{$value.dept_name}
+	            	</option>
+	            <else />
+	            	<option value="{$value.dept_id}">
+	            		{$value.dept_name}
+	            	</option>
+            	</if>
+            	</foreach>
+            </select>
+        </div>
+    </div>
+    <p class="short-input ue-clear">
+    	<label>排序：</label>
+        <input type="text" name="sort" value="{$dinfo.dept_sort}"/>
+    </p>
+    <p class="short-input ue-clear">
+    	<label>备注：</label>
+        <textarea name="remark">{$dinfo.dept_remark}</textarea>
+    </p>
+</div>
+<div class="btn ue-clear">
+	<a href="javascript:;" class="confirm">确定</a>
+    <a href="javascript:;" class="clear">清空内容</a>
+</div>
+</form>
+</body>
+<script type="text/javascript" src="__HOMEJS__/jquery.js"></script>
+<script type="text/javascript" src="__HOMEJS__/common.js"></script>
+<script type="text/javascript" src="__HOMEJS__/WdatePicker.js"></script>
+<script type="text/javascript">
+//使用a标签(确定)来提交表单
+$('.confirm').click(function(){
+	$('form').submit();
+})
+$(".select-title").on("click",function(){
+	$(".select-list").toggle();
+	return false;
+});
+$(".select-list").on("click","li",function(){
+	var txt = $(this).text();
+	$(".select-title").find("span").text(txt);
+});
+
+
+showRemind('input[type=text], textarea','placeholder');
+</script>
+</html>
